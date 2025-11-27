@@ -1,4 +1,6 @@
 @echo off
+chcp 65001 >nul
+
 REM 1) 가상환경 활성화 (반드시 call 사용)
 call "C:\kiwoomautotrade\venv\Scripts\activate.bat"
 
